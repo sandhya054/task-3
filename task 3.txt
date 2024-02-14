@@ -1,0 +1,18 @@
+Scanner in = new Scanner(System.in);
+int dice1, dice2, i, j, countOneOne;
+countOneOne = 0;
+// dice1 = 0;
+// dice2 = 0;
+for (j = 1;j <= 5; j++) {
+    dice1 = 1 +(int) (Math.random() * 6); 
+    j = dice1;
+    System.out.println("Result of dice1: " + dice1);
+} 
+for (i = 1; i <= 5; i++) {
+    dice2 = 1 +(int)(Math.random()*6);
+    i = dice2;
+    System.out.println("Result of dice2: " + dice2);
+}
+System.out.println("Result of dice1: " + dice1 + " ; Result of dice2: " + die2);   
+if (dice1 == 1 && dice2 == 1) countOneOne++;
+System.out.println(countOneOne + " is the number of 1, 1 results");
